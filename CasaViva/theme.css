@@ -1,6 +1,6 @@
 :root{--ink:#203d3a;--muted:#66716e;--paper:#fffef8;--cream:#f5f3ec;--terracotta:#f65379;--green:#318f8d;--line:#e7e7df;--serif:'DM Sans',Arial,sans-serif;--sans:'DM Sans',Arial,sans-serif}
 body{background:var(--paper);color:var(--ink)}
-.announcement{height:42px;background:#318f8d;color:#fff;font-weight:700;letter-spacing:.08em;font-size:10px}
+.announcement{height:42px;background:#8f3131;color:#fff;font-weight:700;letter-spacing:.08em;font-size:10px}
 .site-header{height:102px;background:#fffef8;border-bottom-color:#e7e7df;gap:24px}
 .brand-name{font-size:25px;line-height:1;color:#287d7a;font-weight:800;letter-spacing:-.06em}
 .brand-name b{color:#f65379}
