@@ -4,7 +4,7 @@ const SUPABASE_URL='https://gkdeeopekmhreypmptyq.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY='sb_publishable_GWN69JIT_DiJX030KaftIw_X_Ps9cjA';
 const supabaseClient=window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY);
 const STORAGE_KEY='casa-em-ordem-v1';
-const defaultState={phone:'5511911731951',orders:[],products:[]};
+const defaultState={phone:'5511995291374',orders:[],products:[]};
 let state=loadState(),cart=JSON.parse(localStorage.getItem('casa-em-ordem-cart')||'[]'),categoryFilter='Todos',departmentFilter='home',query='',adminTab='products',editingId=null,toastTimer;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 let sellerSession=null;
